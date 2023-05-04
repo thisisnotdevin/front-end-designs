@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
 * {
   font-family: 'Inter', sans-serif;
+/*   border:1px solid red; */
+  margin:0;
+
+}
+.header {
+  display: flex;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 36px;
+  margin:1%;
 }
 body {
   display:flex;
   flex-direction:column;
-  justify-content:center;
   align-items:center;
+ 
+  background-image: radial-gradient(#000000 1px, transparent 1px);
+background-size: 50px 50px;
+background-color: #ffffff;
 }
 .tab-container {
    display:flex;
+  justify-content:center;
 }
 .tab {
   display:flex;
@@ -22,20 +33,22 @@ body {
   cursor:pointer;
   width: 200px;
   height: 70px;
-  border:2px solid black;
+  border:3px solid black;
   border-radius: 10px;
   background: #fff;
   box-shadow:  5px 5px 0px black;
   transition: all 0.3s ease;
+  font-weight: 400;
+  font-size: 24px;
 }
 .tab:hover {
   transform: scale(1.03);
 }
 .search {
   margin-top:4%;
-  width: 599px;
+  width: 605px;
   height: 40px;
-  border:2px solid black;
+  border:3px solid black;
   border-radius: 10px;
   background: #fff;
   box-shadow:  5px 5px 0px black;
@@ -52,5 +65,76 @@ body {
 .search-container .fa-search {
   position: absolute;
   margin:10px;
-  top:32%;
+  top:40%;
+}
+.task-container {
+  display:flex;
+    margin:1%;
+}
+.task {
+  width: 200px;
+  height: auto;
+  margin:1%;
+  display:flex;
+  flex-direction:column;
+  cursor:pointer;
+  border:3px solid black;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow:  5px 5px 0px black;
+
+}
+.fa-behance-square {
+  font-size:24px;
+}
+.task-header {
+
+  margin:5%;
+  display:flex;
+  justify-content:space-between;
+}
+.task-body {
+  margin:1%;
+  padding:5px;
+  display:flex;
+  justify-content:center;
+
+}
+.task-cards{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:4%;
+  cursor:pointer;
+  width: 60px;
+  height: 20px;
+  border:2px solid black;
+  border-radius: 10px;
+  background: snow;
+  box-shadow:  3px 3px 0px black;
+  font-size:12px;
+
+}
+.task-cards:hover {
+  transform: scale(1.03);
+}
+.add-task {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: 590px;
+  height: 40px;
+  border:3px solid black;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow:  5px 5px 0px black;
+  padding-left: 10px;
+  cursor:pointer;
+  margin-bottom:15%;
+}
+.fa-circle-plus {
+  font-size:20px;
+}
+.add-task:hover {
+  transform: scale(1.01);
 }
