@@ -12,20 +12,33 @@
   width:95%;
   margin:2rem;
 }
+.navbar h2 {
+  cursor:pointer;
+  padding:0px 8px 0px 8px;
+  border-radius: 10px;
+background: #ededed;
+box-shadow:  2px 2px 0px #a6a6a6,
+             -2px -2px 0px #ffffff;
+
+}
 .three-dots{
   background:black;
-  color:white;
-  border-radius:50%;
+  color:black;
+
   padding:0px 8px 8px 8px;
   cursor:pointer;
 }
 .card{
   border-radius:8px;
   height:250px;
-  width:450px;
+  width:420px;
   background: rgb(207,176,248);
 background: linear-gradient(90deg, rgba(207,176,248,1) 0%, rgba(249,196,125,1) 100%);
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+box-shadow:  7px 7px 0px #adadad,
+             -7px -7px 0px #ffffff;
+  margin-bottom:1.5rem;
 }
 body {
   padding-left:35vw;
@@ -34,7 +47,7 @@ body {
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  background-color:#f3f2f8;
+  background-color:#ededed;
 }
 .data-container{
   width:95%;
@@ -48,11 +61,19 @@ body {
 }
 
 .div1 {
+    cursor:pointer;
   grid-area: 1 / 1 / 2 / 2;
 /*   background:red; */
   width:230px;
-  padding:1rem;
-  padding-left:2rem;
+  margin:0.5rem;
+  padding:0.5rem;
+  padding-left:1rem;
+  border-radius: 20px;
+border-radius: 20px;
+background: #ededed;
+box-shadow:  5px 5px 0px #a6a6a6,
+             -5px -5px 0px #ffffff;
+
 }
 .div1 h2 {
   font-size:35px;
@@ -62,18 +83,34 @@ body {
   color:#a2a2a2;
 }
 .div2 { 
+    cursor:pointer;
   grid-area: 2 / 1 / 3 / 2; 
 /*   background:blue; */
-  padding:1rem;
-  padding-left:2rem;
+  padding:0.5rem;
+  margin:0.5rem;
+  padding-left:1rem;
+  border-radius: 20px;
+border-radius: 20px;
+background: #ededed;
+box-shadow:  5px 5px 0px #a6a6a6,
+             -5px -5px 0px #ffffff;
+
+
 }
 .div3 { 
+    cursor:pointer;
   grid-area: 1 / 2 / 3 / 3;
 /*   background:green; */
-  width:200px;
-  height:200px;
-  padding:1rem 3rem 0rem 0rem;
-  
+  width:160px;
+  height:230px;
+/*   padding:1rem 3rem 0rem 0rem; */
+  border-radius: 20px;
+border-radius: 20px;
+background: #ededed;
+box-shadow:  5px 5px 0px #a6a6a6,
+             -5px -5px 0px #ffffff;
+  padding:1rem;
+  margin:0.5rem;
 }
 .div3 h2 {
   font-size:35px;
@@ -91,4 +128,6 @@ body {
   background:black;
   color:white;
   
+background: #2b2b2b;
+
 }
