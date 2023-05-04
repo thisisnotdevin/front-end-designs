@@ -2,5 +2,5 @@
 
 1. shadow-boxes
 
-![image](https://user-images.githubusercontent.com/66978846/234027183-9fd13e8b-d1ec-45b9-9103-e0d4a1b919ad.png)
+![image](https://user-images.githubusercontent.com/66978846/236079523-235befbc-d5d2-4f8f-b45f-d990acc74389.png)
 
