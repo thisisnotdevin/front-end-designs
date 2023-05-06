@@ -58,6 +58,11 @@ background-color: #c5d8c5;
   color: var(--black);
   border:2px solid var(--black);
 }
+input[type="text"]
+{
+  font-size:18px;
+  font-family: 'Darumadrop One', cursive;
+}
 .form-input{
   width: 350px;
   height: 40px;
