@@ -1,0 +1,117 @@
+
+*{
+  letter-spacing: 3px;
+  margin:0;
+  color:white;                                                     font-family: 'Minecraft', sans-serif;
+                                          
+}
+.background {
+  position:absolute;
+  z-index:0;
+  width:100%;
+  height:100%;
+background: 
+      radial-gradient(farthest-side at -33.33% 50%,#0000 52%,#ffffff 54% 57%,#0000 59%) 0 calc(156px/2),
+      radial-gradient(farthest-side at 50% 133.33%,#0000 52%,#ffffff 54% 57%,#0000 59%) calc(156px/2) 0,
+      radial-gradient(farthest-side at 133.33% 50%,#0000 52%,#ffffff 54% 57%,#0000 59%),
+      radial-gradient(farthest-side at 50% -33.33%,#0000 52%,#ffffff 54% 57%,#0000 59%),
+      #161616;
+background-size: calc(156px/4.667) 156px,156px calc(156px/4.667);
+
+}
+body{
+  
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: var(--neu-1);
+/*     color: var(--gray); */
+
+}
+.main {
+  z-index:1;
+  max-width:400px;
+  max-height:480px;
+  margin:1%;
+  padding:5%;
+  display: flex;
+  background: rgba(0,0,0,0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0,0,0,0.25);
+	border-radius: 12px;
+}
+
+input[type="text"],input[type="password"]
+{
+  color:black;
+  font-size:18px;
+  font-family: 'Minecraft', sans-serif;
+ 
+}
+.form-input{
+  width: 350px;
+  height: 40px;
+
+  font-size: 16px;
+  letter-spacing: .15px;
+  margin-bottom:15px;
+  font-family: 'Minecraft', sans-serif;
+  background-color: #dedede;
+  transition: .25s ease;
+  border-radius: 8px;
+box-shadow: inset 5px 5px 10px #bababa,
+            inset -5px -5px 10px #ffffff;
+  border:2px solid black;
+}	
+.form-input:focus{
+box-shadow: inset 15px 15px 30px #bababa,
+            inset -15px -15px 30px #ffffff;
+
+}
+
+.container h2 {
+  margin:30px;
+}
+.container{
+  
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction:column;
+}
+
+.form-link{
+  margin:10px;
+  color:#4a4a4a;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+}
+.form p {
+  margin-bottom:10px;
+}
+.button{
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+    background-color: #8f8f8f;
+    border-radius:3px;
+    box-shadow:
+      8px 8px 16px var(--neu-2),
+      -8px -8px 16px var(--white);
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    font-size:18px;
+}
+ .button:hover{
+      color:#e8d496;
+	    background:#6b6cb4;
+}
