@@ -2,10 +2,12 @@
 *{
   letter-spacing: 3px;
   margin:0;
-  color:white;                                                     font-family: 'Minecraft', sans-serif;
+  color:white;                                                     
+  font-family: 'Minecraft', sans-serif;
                                           
 }
 .background {
+  
   position:absolute;
   z-index:0;
   width:100%;
@@ -17,7 +19,7 @@ background:
       radial-gradient(farthest-side at 50% -33.33%,#0000 52%,#ffffff 54% 57%,#0000 59%),
       #161616;
 background-size: calc(156px/4.667) 156px,156px calc(156px/4.667);
-
+opacity:0.8;
 }
 body{
   
